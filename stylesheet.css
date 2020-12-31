@@ -1,0 +1,640 @@
+@@charset "UTF-8";
+
+html{
+  font-size: 100%;
+
+}
+body{
+  font-family:"ヒラギノ角ゴ ProN";
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 4%;
+
+}
+.logo{
+  width: 300px;
+  margin-top: 18px;
+}
+#global-nav ul{
+  display: flex;
+  font-size:1.125rem ;
+  margin-top:27px;
+  list-style: none;
+
+}
+#global-nav li{
+  margin-left:20px ;
+
+}
+#global-nav a{
+  color: #212121;
+  text-decoration: none;
+}
+#global-nav a:hover{
+  color: #0bd;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* HOME
+------------------------*/
+.home-content{
+  text-align: left;
+    height: 500px;
+
+}
+.home-content p{
+  font-size: 1.5rem;
+  margin:40px 0 80px 0;
+  color:#ffffff;
+  text-shadow: 2px 2px 6px #000000;
+}
+/*見出し*/
+.page-title{
+  font-size:4.375rem;
+  color:#ffffff;
+  text-shadow: 2px 2px 6px #000000;
+}
+/*ボタン*/
+.button{
+  font-size:24px ;
+  color:#ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: 18px 41px ;
+
+}
+.button:hover{
+  background: #0090aa;
+}
+
+/* 大きな背景画像　*/
+.big-bg{
+  background-size: cover;
+  width: 100%;
+
+}
+#home{
+  background-image: url(kadai/mv.jpg);
+
+}
+#home .page-title{
+padding-top: 4.375rem;
+
+}
+
+
+/*　サービス内容
+-----------------------------*/
+.service-content{
+text-align: center;
+
+}
+.service-content h2{
+  color: #364952;
+  font-size: 1.5rem;
+}
+.service{
+  margin-top: 3.125rem;
+}
+.service-content p{
+  color: #0071bc;
+  font-size: 0.875rem;
+  padding: 0 18px;
+
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.consulting{
+  margin: 30px 10px 60px 10px;
+border-style: solid;
+border-radius: 5px;
+border-width: 2px;
+border-color: #43bcff;
+text-align: left;
+  height: 210px;
+  width: 310px;
+}
+.consulting h3{
+  margin:18px ;
+}
+.consulting p{
+  padding: 0 18px;
+}
+
+.loan{
+  margin: 30px 10px 60px 10px;
+border-style: solid;
+border-radius: 5px;
+border-width: 2px;
+border-color: #43bcff;
+text-align: left;
+  height: 210px;
+  width: 310px;
+}
+.loan h3{
+  margin:18px;
+}
+.loan p{
+  padding: 0 18px;
+}
+
+.support{
+  margin: 30px 10px 60px 10px;
+border-style: solid;
+border-radius: 5px;
+border-width: 2px;
+border-color: #43bcff;
+text-align: left;
+  height: 210px;
+  width: 310px;
+}
+.support h3{
+  margin:18px;
+}
+.support p{
+  padding: 0 18px;
+}
+
+
+/* お客様の声
+------------------------------*/
+.gray-bg{
+  background-size: cover;
+  background-color: #f0f0f0;
+  height: 100%;
+
+}
+.voice-content{
+text-align: center;
+
+}
+
+.voice-content p{
+  color: #0071bc;
+  font-size: 0.875rem;
+  padding: 0 18px;
+  }
+
+.voice{
+  padding-top: 3.125rem;
+  font-size:1.5rem;
+  color: #364952;
+}
+
+.client{
+  display: flex;
+  justify-content: center;
+
+}
+
+.voice1{
+  margin: 50px 20px 74px 0;
+  text-align: left;
+  height: 450px;
+  width: 310px;
+}
+.voice1 h3{
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #011d0e;
+}
+.voice1 p{
+  font-size: 0.875rem;
+  color: #011d0e;
+}
+.voice2{
+  margin: 50px 20px 74px 0;
+  text-align: left;
+  height: 450px;
+  width: 310px;
+}
+.voice2 h3{
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #011d0e;
+}
+.voice2 p{
+  font-size: 0.875rem;
+  color: #011d0e;
+}
+.voice3{
+  margin: 50px 20px 74px 0;
+  text-align: left;
+  height: 450px;
+  width: 310px;
+}
+.voice3 h3{
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #011d0e;
+}
+.voice3 p{
+  font-size: 0.875rem;
+  color: #011d0e;
+}
+
+/* お問合せ
+---------------------------*/
+.contact-content{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-content a{
+  color: #000000;
+}
+
+.contact-content p{
+  font-size: 0.875rem;
+  color:#011d0e;
+}
+.contact-content h3{
+  font-size: 1.5rem;
+  color: #011d0e;
+  margin-top: 1.5rem;
+}
+.tokyou{
+  margin: 90px 10px 70px 0;
+  height: 210px;
+  width: 310px;
+}
+.tokyou-office{
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #1b5d88;
+  padding: 1rem 2.5rem
+}
+.tokyou-office:hover{
+  color: #ffffff;
+  background: #0090aa;
+}
+.osaka{
+  margin: 90px 10px 70px 0;
+  height: 210px;
+  width: 310px;
+}
+.osaka-office{
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #1b5d88;
+  padding: 1rem 2.5rem;
+}
+.osaka-office:hover{
+  color: #ffffff;
+  background: #0090aa;
+}
+
+.webcontact{
+  margin: 70px 10px 70px 0;
+  height: 210px;
+  width: 310px;
+}
+.webcontact p{
+  padding-bottom: 1rem;
+  font-size: 1rem;
+
+}
+/*ボタン */
+.button2{
+  text-align: center;
+  color: #000000;
+  font-size: 1.25rem;
+  display:block;
+  border-style: solid;
+  border-color: #1b5d88;
+padding: 1rem 1.25rem;
+}
+.my-blue{
+  color: #1b5d88;
+}
+.button2:hover{
+  color: #ffffff;
+  background: #0090aa;
+}
+
+
+/* お問合せ背景画像　*/
+.mid-bg{
+background-size: cover;
+  height: auto;
+  width: 100%;
+}
+#contact{
+  background-image: url(kadai/bg_footer.jpg);
+
+}
+#contact .contact-cotent{
+  margin: 50px 20px 50px 0;
+}
+
+
+
+/*　フッター
+------------------------------*/
+footer{
+  background-color: #1b5d88;
+  text-align: right;
+  padding: 25px 0;
+
+}
+
+
+/*infomation
+------------------------*/
+#infomation{
+  background-image: url(kadai/mv.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#infomation .page-title{
+  text-align: left;
+  text-shadow: 2px 2px 6px #000000;
+}
+#infomation p{
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 0 24px;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+  }
+
+
+/* 会社概要 */
+
+article{
+  width: 74%;
+}
+
+.post-title{
+  font-size: 2rem;
+}
+.company{
+  width: 90%;
+  text-align: left;
+}
+.company th,
+.company td{
+  border: 1px solid #ccc;
+  padding: 20px;
+
+}
+
+.company th {
+font-weight: bold;
+background-color: #dedede;
+}
+
+.accsess{
+  font-weight: normal;
+  margin-top: 60px;
+}
+
+/* サイドバー */
+aside{
+width: 60%;
+
+}
+.infomation-contents{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+}
+.sub-title{
+  font-size: 1.375rem;
+  padding: 10px 8px 0px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+
+}
+aside p{
+  padding: 12px 10px;
+}
+.sub-menu{
+  margin-bottom: 60px;
+  list-style: none;
+}
+.sub-menu li{
+  border-bottom: 1px #0bd solid;
+}
+.sub-menu a{
+  color: #000000;
+  padding: 10px;
+  display: block;
+}
+.sub-menu a:hover{
+  color: #0bd;
+}
+.news{
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+
+}
+
+
+/*モバイル版
+------------------------*/
+@media (max-width:600px){
+  .page-title{
+    font-size: 2.5rem;
+  }
+  /*HEADER*/
+  .logo{
+    width: 80%;
+   float: left;
+  }
+
+  .menu-trigger{
+    display: block;
+    width: 46px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    right: 0;
+    z-index: 2;
+    outline: none;
+  }
+
+.menu-trigger span{
+  position: absolute;
+  left: 50%;
+  width: 32px;
+  height: 2px;
+  background-color: #000000;
+  transform: translate(-50%,-50%);
+  transition: .3s;
+}
+.bar1{
+  transform: translate(-50%,-50%);
+  top: 9px;
+}
+.bar2{
+
+  top: 50%;
+}
+.bar3{
+  transform: translate(-50%, -50%);
+  bottom:9px;
+}
+/*active
+---------------------*/
+
+.bar1.active{
+transform: rotate(-45deg) translate(-50%, -50%);
+top: 8px;
+}
+.bar2.active{
+  opacity: 0;
+}
+.bar3.active{
+transform: rotate(45deg)translate(-50%,-50%);
+bottom:8px;
+}
+
+
+#global-nav{
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background:rgba(192,192,192,.95);
+  margin: 0;
+  padding: 90px 5% 0;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+#global-nav.active{
+  display: block;
+  z-index: 1;
+}
+#global-nav ul{
+  text-align: center;
+  display: block;
+}
+#global-nav li,
+#global-nav  li :last-child{
+  width: 100%;
+}
+#global-nav li a{
+  font-size: 30px;
+  background: none;
+  padding-top: 12px;
+}
+
+  /*HOME*/
+  .home-content{
+    margin-top: 20px;
+  }
+  .page-header{
+    flex-direction: row;
+
+  }
+
+  /* service */
+  /* voice */
+  .gray-bg{
+    height:100% ;
+  }
+  .client{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* contact */
+#contact .contact-content{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .osaka{
+    margin-top: 0px;
+  }
+  .webcontact{
+    margin-top: 0;
+  }
+
+
+
+/* 会社概要 */
+
+
+.infomation-contents{
+  flex-direction: column;
+}
+
+article,
+aside{
+  width: 100%;
+
+}
+#infomation .page-title{
+  margin-top: 30px;
+}
+
+aside{
+max-width: 60%;
+margin: auto;
+
+
+}
+.post-title{
+  font-size: 1.375rem;
+
+}
+.post-title,
+.company{
+  max-width: 90%;
+  margin: auto;
+
+}
+.company{
+  margin-bottom: 30px;
+}
+.map{
+  width: 100%;
+text-align: center;
+margin-bottom: 60px;
+}
+.sub-title,
+.sub-menu,
+aside p{
+
+}
+.acsses{
+  font-size: 0.7rem;
+}
+.map{
+  margin-top: 30px;
+
+}
+
+footer{
+  text-align: center;
+}
